@@ -1,0 +1,29 @@
+{
+  "name": "lamas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "4.5",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.1.0",
+    "html-webpack-plugin": "^5.5.0",
+    "jquery": "^3.6.1",
+    "mini-css-extract-plugin": "^2.6.1",
+    "popper.js": "^1.16.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1"
+  },
+  "dependencies": {
+    "@laylazi/bootstrap-rtl": "^4.6.2-1",
+    "optimize-css-assets-webpack-plugin": "^6.0.1"
+  }
+}
